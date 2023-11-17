@@ -1,0 +1,22 @@
+<html>
+<body>
+    <h1>Available Job Offers</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+            </tr>    
+        </thead>
+        <body>
+
+            {% for o in offers %}
+            <tr>
+                <td>{{ o.tittle}}</td>
+            </tr>    
+            {% endfor %}
+        </body>
+    </table>        
+</body>
+
+
+</html>
